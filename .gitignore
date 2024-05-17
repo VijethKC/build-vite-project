@@ -1,0 +1,42 @@
+*.mongodb
+.DS_store
+.env
+.env.development
+.idea
+.npmrc
+.nvmrc
+.serverless
+.sublime-project
+.sublimelinterrc
+.vscode
+.nx
+# yarn
+.yarnrc.yml
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+!.yarn/plugins
+
+# only with yarn zero-installs
+#!.yarn/cache
+
+# only with yarn node-modules
+.pnp.*
+
+applications/*/dist
+
+build
+coverage
+dist
+lerna-debug.log
+libraries/*/dist
+node_modules
+nx-cache
+package.json.lerna_backup
+private
+uploads
+
+applications/*/package-lock.json
+libraries/*/package-lock.json

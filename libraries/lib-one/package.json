@@ -1,0 +1,14 @@
+{
+  "name": "@vijeth/lib-one",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "types": "dist/types/index.d.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
