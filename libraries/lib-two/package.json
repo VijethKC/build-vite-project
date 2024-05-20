@@ -1,5 +1,5 @@
 {
-  "name": "@vijeth/lib-one",
+  "name": "@vijeth/lib-two",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -8,9 +8,6 @@
   "scripts": {
     "build": "tsc",
     "transpile-lib": "tsup src/index.ts --out-dir lib --format cjs,esm --dts"
-  },
-  "dependencies": {
-    "@vijeth/lib-two": "*"
   },
   "devDependencies": {
     "typescript": "^5.4.5",

@@ -1,5 +1,3 @@
-const LIB_ONE = "LIBRARY ONE"
+import {libTwo} from '@vijeth/lib-two'
 
-export {
-    LIB_ONE
-}
+export const libOne = `Hello from Library One and ${libTwo}`;
