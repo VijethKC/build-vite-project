@@ -7,5 +7,6 @@ export default defineConfig({
   dts: true,
   bundle: true,
 //   external: ['react', 'react-dom'],
-  noExternal: ['@vijeth/lib-one',]
+  noExternal: ['@vijeth/lib-one',],
+  minify: true
 })
