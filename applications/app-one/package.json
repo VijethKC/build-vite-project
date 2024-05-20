@@ -1,8 +1,9 @@
 {
-  "name": "@vijeth/app",
-  "private": true,
+  "name": "@vijeth/app-one",
   "version": "1.0.0",
   "type": "module",
+  "main": "lib/App.js",
+  "types": "lib/App.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

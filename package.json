@@ -9,7 +9,7 @@
   "scripts": {
     "build:lib1": "yarn workspace @vijeth/lib-one build",
     "build": "yarn build:lib1",
-    "transpile-libs": "yarn workspace @vijeth/lib-two transpile-lib && yarn workspace @vijeth/lib-one transpile-lib && yarn workspace @vijeth/app transpile-lib",
+    "transpile-libs": "yarn workspace @vijeth/lib-two transpile-lib && yarn workspace @vijeth/lib-one transpile-lib && yarn workspace @vijeth/app-one transpile-lib",
     "start": "yarn workspace @vijeth/app dev"
   },
   "packageManager": "yarn@4.1.1",
