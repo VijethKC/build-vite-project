@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 import { UseLibrary } from './components/UseLibrary'
+import { UseLibraryTest } from './components/UseLibraryTest'
 import { Uuid } from './components/Uuid'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <UseLibrary/>
+      <UseLibraryTest/>
       <Uuid/>
     </>
   )

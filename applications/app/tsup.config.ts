@@ -7,5 +7,5 @@ export default defineConfig({
   dts: true,
   bundle: true,
 //   external: ['react', 'react-dom'],
-  noExternal: ['uuid',]
+  noExternal: ['@vijeth/lib-one',]
 })
