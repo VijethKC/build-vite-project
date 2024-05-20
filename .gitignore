@@ -25,13 +25,13 @@
 # only with yarn node-modules
 .pnp.*
 
-applications/*/dist
+applications/*/lib
 
 build
 coverage
 dist
 lerna-debug.log
-libraries/*/dist
+libraries/*/lib
 node_modules
 nx-cache
 package.json.lerna_backup

@@ -1,8 +1,8 @@
 {
   "name": "@vijeth/lib-two",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "private": true,
   "scripts": {
